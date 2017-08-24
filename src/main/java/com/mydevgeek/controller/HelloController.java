@@ -10,6 +10,6 @@ public class HelloController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index() {
-        return "Hello World!";
+        return "Hello World! lates";
     }
 }
