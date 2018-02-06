@@ -10,6 +10,7 @@ public class HelloController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index() {
-        return "Hello World! latest 1";
+        return "Jenkins Server is on port 8080;\n Tomacat is running on port 8082 "
+        		+ "\n To gain access start ec2 instance and then SSSH the server on Git Bash ";
     }
 }
